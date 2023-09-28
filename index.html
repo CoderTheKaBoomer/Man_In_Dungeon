@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novel Minigame</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="story-container">
+    <h1 id="storyTitle">Man in a Dungeon</h1>
+    <div class="mainStoryParagraphContainer">
+      <p id="mainStoryParagraph1">This story is about a man lost in a dungeon. Help him escape.</p>
+      <p id="mainStoryParagraph2"></p>
+      <p id="mainStoryParagraph3"></p>
+    </div>
+    
+    <div  class="inventoryContainer">
+      <p><b>Items:</b></p>
+      <p id="inventoryItem1"></p>
+      <p id="inventoryItem2"></p>
+      <p id="inventoryItem3"></p>
+    </div>
+
+    <div class="buttons-container">
+      <button id="buttonStart">Start</button>
+
+      <div class="choiceButtonsContainer">
+        <button id="buttonChoice1">Choice 1</button>
+        <button id="buttonChoice2">Choice 2</button>
+        <button id="buttonChoice3">Choice 3</button>
+      </div>
+
+      <div class="utilityButtonsContainer">
+        <button id="buttonInventory">Inventory</button>
+      </div>
+    </div>
+
+    <div class="health-container">
+      <p><b>Health</b></p>
+      <div>
+        <img src="Images/red-heart.png" id="first-heart">
+        <img src="Images/red-heart.png" id="second-heart">
+        <img src="Images/red-heart.png" id="third-heart">
+
+        <img src="Images/black-heart.png" id="first-heart-black">
+        <img src="Images/black-heart.png" id="second-heart-black">
+        <img src="Images/black-heart.png" id="third-heart-black">
+      </div>
+    </div>
+    <div class="backstory-selector-container">
+      <h3>Select the man's backstory.</h3>
+      <a href="#" id="soldierLink">Soldier</a>
+      <a href="#" id="assasinLink">Assasin</a>
+      <a href="#" id="noblemanLink">Nobleman</a>
+      <a href="#" id="peasantLink">Peasant</a>
+    </div>
+
+    
+
+
+
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
