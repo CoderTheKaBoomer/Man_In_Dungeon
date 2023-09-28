@@ -1,0 +1,15 @@
+Changelog: v0.2
+      
+      -Added Chapter II
+      -Added new choice mechanics
+      -Added limited free roam between scenes
+      -Various UI improvements
+      -Different dialogue & encounters based on class picked
+
+
+Plans for v1.0:
+
+      -Back button to return to a previous scene upon game completion (easier game exploration)
+      -Improved free-roam
+      -Random enemy encounters?
+      -Random loot generation?
